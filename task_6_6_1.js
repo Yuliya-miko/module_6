@@ -1,4 +1,4 @@
-let stringPolidrom = "Ровод";
+let stringPolidrom = "довод";
 let stringPolidromLowerCase = stringPolidrom.toLowerCase();
 let stringPolidromReverse = stringPolidromLowerCase
   .split("")
@@ -9,3 +9,4 @@ if (stringPolidromLowerCase === stringPolidromReverse) {
 } else {
   console.log("Строка не является полиндромом");
 }
+console.log(stringPolidrom.split(""));
